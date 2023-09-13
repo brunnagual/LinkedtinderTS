@@ -12,16 +12,10 @@ document.addEventListener('DOMContentLoaded',() => {
     let estadoEmpresa = document.getElementById('estado') as HTMLInputElement;
     let descricaoEmpresa = document.getElementById('descricao') as HTMLInputElement;
 
-    // let mudarCor = document.getElementById('mudarCor') as HTMLElement | null;
-    //
-    // if (mudarCor) {
-    //     mudarCor.innerHTML = 'ok';
-    // }
-
     let linguagensSelecionadas: string[] = [];
 
     function armazenarLinguagens() {
-        let checkboxes = document.getElementsByName('linguagem');
+        let checkboxes = document.getElementsByName('tecnologias');
         for (let i = 0; i < checkboxes.length; i++) {
 
             if ((checkboxes[i] as HTMLInputElement).type === 'checkbox' && (checkboxes[i] as HTMLInputElement).checked) {
