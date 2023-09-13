@@ -15,6 +15,8 @@ Abaixo estão os principais componentes e funcionalidades do projeto:
 
 - Interface de Usuário: O projeto inclui uma interface de usuário simples com um cabeçalho, um formulário de cadastro, uma barra lateral de navegação e um botão para salvar as informações da empresa.
 ![image](https://github.com/brunnagual/LinkedtinderTS/assets/109802322/6d905a02-9fb5-49ff-bba2-adc252777870)
+![image](https://github.com/brunnagual/LinkedtinderTS/assets/109802322/871a912b-b751-4226-bc03-2d4fabf9207c)
+
 
 - Prevenção de Comportamento Padrão: Para evitar que o formulário seja enviado antes da validação e do armazenamento.
 
