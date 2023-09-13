@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Cadastrar Vagas - Linkedtinder</title>
+</head>
+<body>
+
+<header>
+    <h1><a>Cadastrar Vagas</a></h1>
+</header>
+
+
+<aside>
+    <nav>
+        <ul>
+            <li><a href="index.html">Voltar para a tela inicial</a></li>
+            <li><a href="cadastrarEmpresa.html">Cadastrar Empresa</a></li>
+            <li><a href="perfilCandidato.html">Perfil Candidato</a></li>
+            <li><a href="perfilCandidato.html">Perfil Empresa</a></li>
+        </ul>
+    </nav>
+</aside>
+
+<section id="pageCadastroEmpresa">
+    <h2 id="cadastrar-vaga">Cadastrar Nova Vaga</h2>
+
+    <form id="vaga-form">
+        <div class = "cadastro">
+            <label>CNPJ da Empresa:
+            <input type="text" id="cnpj" required="required">
+            </label>
+
+            <label>Nome da Vaga:
+            <input type="text" id="nome-vaga" required="required">
+            </label>
+
+            <label>Tecnologias da Vaga:</label>
+            <p></p>
+            <div id="checkbox-group">
+                <label for="java">Java</label>
+                <input type="checkbox" id="java" name="tecnologias" value="Java">
+
+                <label for="javascript">JavaScript</label>
+                <input type="checkbox" id="javascript" name="tecnologias" value="JavaScript">
+
+                <label for="typescript">TypeScript</label>
+                <input type="checkbox" id="typescript" name="tecnologias" value="TypeScript">
+
+                <label for="python">Python</label>
+                <input type="checkbox" id="python" name="tecnologias" value="Python">
+
+                <label for="csharp">C#</label>
+                <input type="checkbox" id="csharp" name="tecnologias" value="C#">
+
+                <label for="php">PHP</label>
+                <input type="checkbox" id="php" name="tecnologias" value="PHP">
+
+                <label for="ruby">Ruby</label>
+                <input type="checkbox" id="ruby" name="tecnologias" value="Ruby">
+                <p></p>
+            </div>
+
+            <label>Descrição da Vaga:
+            <textarea id="descricao-vaga" rows="4" required="required"></textarea>
+            </label>
+
+            <label>Salário:
+            <input type="text" id="salario" required="required">
+            </label>
+
+            <button id="button-adicionar">
+                Salvar Vaga
+            </button>
+        </div>
+    </form>
+</section>
+
+    <script>var exports = {};</script>
+    <script src="./cadasdrarVagas.min.js"></script>
+</body>
+</html>

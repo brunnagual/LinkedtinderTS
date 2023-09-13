@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Cadastrar Candidato - Linkedtinder</title>
+</head>
+<body>
+<header>
+    <h1><a>Cadastrar Candidato</a></h1>
+</header>
+
+<section id="cadastro-candidato">
+    <h2>Cadastrar Candidato</h2>
+    <form id="empresa-form">
+        <div class = "cadastro">
+
+        <label >Nome Candidato:
+        <input type="text" id="nome-candidato" required="required">
+        </label>
+
+        <label>CPF:
+        <input type="text" id="cpf" required="required">
+        </label>
+
+        <label>Email:
+        <input type="email" id="email" required="required">
+        </label>
+
+        <div id = 'checkboxes'>
+        Marque as opções que você desenvolve:
+        <p></p>
+
+        <div class="checkbox-group">
+            <label for="java">Java</label>
+            <input type="checkbox" id="java" name="tecnologias" value="Java">
+
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" id="javascript" name="tecnologias" value="JavaScript">
+
+            <label for="typescript">TypeScript</label>
+            <input type="checkbox" id="typescript" name="tecnologias" value="TypeScript">
+
+            <label for="python">Python</label>
+            <input type="checkbox" id="python" name="tecnologias" value="Python">
+
+            <label for="csharp">C#</label>
+            <input type="checkbox" id="csharp" name="tecnologias" value="C#">
+
+            <label for="php">PHP</label>
+            <input type="checkbox" id="php" name="tecnologias" value="PHP">
+
+            <label for="ruby">Ruby</label>
+            <input type="checkbox" id="ruby" name="tecnologias" value="Ruby">
+        </div>
+        <p></p>
+        <label for="cep">CEP:
+        <input type="text" id="cep" name="cep" required="required">
+        </label>
+
+        <label>Estado:
+        <input type="text" id="estado" required="required">
+        </label>
+
+        <label>Descrição:
+        <textarea id="descricao" placeholder="Descreva suas habilidade e suas experiências." rows="4" required="required"></textarea>
+        </label>
+
+        <button id="button-adicionar">
+            Cadastrar candidato
+        </button>
+        </div>
+    </form>
+</section>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Voltar para a tela inicial</a></li>
+                    <li><a href="cadastrarEmpresa.html">Cadastrar Empresa</a></li>
+                    <li><a href="perfilEmpresa.html">Perfil Empresa</a></li>
+                    <li><a href="perfilCandidato.html">Perfil Candidato</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <script>var exports = {};</script>
+        <script src="./cadastrarCandidato.min.js"></script>
+</body>
+</html>

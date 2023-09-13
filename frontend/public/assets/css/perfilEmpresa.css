@@ -1,0 +1,121 @@
+/* Estilo para a página de perfil da empresa */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/img2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body::before {
+    content: "";
+    background-color: rgba(10, 23, 55, 0.5);
+    position: absolute;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    background-color: #339;
+    color: white;
+    padding: 01px 0;
+    font-size: 20px;
+}
+
+/* Estilo da barra lateral esquerda */
+aside {
+    background-color: #329;
+    color: white;
+    width: 170px;
+    height: 100%;
+    position: fixed;
+    top: 100px;
+    left: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 18px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #344;
+}
+
+/* Estilo para a seção de perfil da empresa */
+#perfil-empresa {
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para os campos do formulário */
+#vaga-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#vaga-form input[type="text"],
+#vaga-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#vaga-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Estilo para o botão de salvar vaga */
+#vaga-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#vaga-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#button-adicionar {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+}
